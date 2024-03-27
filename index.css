@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background-color: #1ae8e1;
+}
+#container{
+    border: 2px solid;
+    height: 500px;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 8%;
+    border-radius: 10px;
+    background: #66cae6;
+}
+#calculator{
+    border: 0;
+    outline: 0;
+    height: 96%;
+    margin-top: 10px;
+    box-shadow: -8px;
+}
+#inpdiv{
+    border: 2px solid ;
+    height: 50px !important;
+    background-color: #000;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px !important;
+    justify-content: flex-end;
+}
+#inpdiv>input{
+    height: 45px;
+    width: 390px;
+    font-size: 26px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    border: none;
+    /* padding: 20px; */
+    /* display: flex; */
+    font-weight: 900;
+    text-align: right;
+    justify-content: flex-end;
+}
+.btns{
+    height: 80px;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #1893e5;
+    margin-top: 4px;
+}
+.btns>input{
+    height: 70px;
+    width: 90px;
+    background-color: #e017a4;
+    font-size: 20px;
+    color: #e3cdd7;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.btnsl{
+    height: 90px;
+    border: 2px solid;
+    width: 295px;
+    margin-top: 3px;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #1893e5;
+}
+.btnsl>input{
+    height: 80px;
+    width: 90px;
+    background-color: #e017a4;
+    font-size: 20px;
+    color: #e3cdd7;
+    font-weight: 900;
+    border-radius: 10px;
+}
+#ac,#de,#point,#divide,#star,#subtract,#plus{
+    color: #590698;
+}
+#point{
+    font-size: 30px;    
+    padding-bottom: 10px;
+}
+#divide{
+    font-size: 30px; 
+}
+#star{
+    font-size: 30px; 
+    padding-top: 8px;
+}
+#subtract{
+    font-size: 30px; 
+}
+#plus{
+    font-size: 30px;
+}
+#equal{
+    font-size: 30px;
+    color: #025f46;
+}
